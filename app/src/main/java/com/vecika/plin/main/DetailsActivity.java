@@ -158,10 +158,11 @@ public class DetailsActivity extends AppCompatActivity {
 
             for (int i = 0; i < items.size(); i++) {
                 TextBlock textBlock = items.valueAt(i);
-                stringBuilder.append(textBlock.getValue());
+                stringBuilder.append(textBlock.getValue().replaceAll("[^0-9]+",""));
                 stringBuilder.append("\n");
             }
-            mEditTextNewState.setText(stringBuilder.toString());
+            String stringToShow = stringBuilder.toString();
+            mEditTextNewState.setText(stringToShow);
             Log.d(TAG, "processImage: "+ stringBuilder.toString());
         } else {
             Log.d(TAG, "processImage: not operational");
