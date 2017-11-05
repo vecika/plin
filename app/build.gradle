@@ -36,5 +36,6 @@ dependencies {
     compile 'com.google.code.gson:gson:2.8.1'
 
     compile 'com.weiwangcn.betterspinner:library-material:1.1.0'
+    compile 'com.google.android.gms:play-services-vision:11.4.2'
 
 }
