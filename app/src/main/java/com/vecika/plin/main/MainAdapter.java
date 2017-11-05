@@ -44,6 +44,13 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.ViewHolder> {
     }
 
     public void addItems(ArrayList<Workorder> data){
+
+        mData.addAll(data);
+        notifyDataSetChanged();
+    }
+
+    public void setFilter(ArrayList<Workorder> data){
+        mData.clear();
         mData.addAll(data);
         notifyDataSetChanged();
     }
