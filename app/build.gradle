@@ -32,9 +32,11 @@ dependencies {
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.4.0'
     compile 'com.jakewharton:butterknife:8.4.0'
     compile 'com.karumi:dexter:4.1.0'
-
+    compile 'io.fotoapparat.fotoapparat:library:1.4.1'
     compile 'com.google.code.gson:gson:2.8.1'
-
+    compile 'com.rmtheis:tess-two:8.0.0'
+    compile 'com.github.bumptech.glide:glide:4.3.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.3.0'
     compile 'com.weiwangcn.betterspinner:library-material:1.1.0'
     compile 'com.google.android.gms:play-services-vision:11.4.2'
 

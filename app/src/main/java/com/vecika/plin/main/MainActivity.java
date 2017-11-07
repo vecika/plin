@@ -78,6 +78,8 @@ public class MainActivity extends AppCompatActivity implements MainAdapter.IOnLi
         mRecyclerViewMain.setAdapter(mAdapter);
 
         mSearchView.setOnQueryTextListener(this);
+
+
     }
 
     @Override
